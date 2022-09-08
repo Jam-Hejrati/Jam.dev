@@ -1,5 +1,5 @@
 import ProfileImage from "../assets/images/profile.jpg";
-// import MenubBar from "./MenuBar";
+import "../assets/css/profile.css"
 
 const Header = function () {
   return (
@@ -7,10 +7,9 @@ const Header = function () {
       <img
         src={ProfileImage}
         alt="profile-img"
-        className="w-72 h-72 rounded-full lg:h-full lg:w-max lg:rounded-none my-12 lg:m-0 border-8 lg:border-none border-slate-700"
+        className="image w-72 h-72 rounded-full lg:rounded-lg lg:mx-7 mt-12 mb-16 lg:mb-12 border-8 lg:border-none border-slate-700"
       />
       <div className="flex flex-col items-center lg:mx-auto lg:items-start lg:px-20">
-        {/* <MenubBar /> */}
         <h1 className="text-5xl text-amber-600">Jam Hejrati</h1>
         <h2 className="text-3xl text-slate-100 my-5 lg:ml-4 lg:mt-5">
           Frontend Web Developer
