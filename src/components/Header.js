@@ -1,5 +1,4 @@
 import ProfileImage from "../assets/images/profile.jpg";
-import "../assets/css/profile.css"
 
 const Header = function () {
   return (
@@ -7,7 +6,7 @@ const Header = function () {
       <img
         src={ProfileImage}
         alt="profile-img"
-        className="image w-72 h-72 rounded-full lg:rounded-lg lg:mx-7 mt-12 mb-16 lg:mb-12 border-8 lg:border-none border-slate-700"
+        className="w-72 h-72 lg:w-[30rem] lg:h-[42rem] object-cover rounded-full lg:rounded-lg lg:mx-7 mt-12 mb-16 lg:mb-12 border-8 lg:border-none border-slate-700"
       />
       <div className="flex flex-col items-center lg:mx-auto lg:items-start lg:px-20">
         <h1 className="text-5xl text-amber-600">Jam Hejrati</h1>
