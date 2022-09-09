@@ -39,13 +39,22 @@ const MenuBar = function () {
               </svg>
             </div>
             <ul className="flex flex-col items-center justify-between min-h-[250px]">
-              <li className="border-b border-gray-400 my-8 uppercase">
+              <li
+                className="border-b border-gray-400 my-8 uppercase"
+                onClick={() => setIsNavOpen(false)}
+              >
                 <a href="#about">About</a>
               </li>
-              <li className="border-b border-gray-400 my-8 uppercase">
-                <a href="#skills">Portfolio</a>
+              <li
+                className="border-b border-gray-400 my-8 uppercase"
+                onClick={() => setIsNavOpen(false)}
+              >
+                <a href="#skills">Skills</a>
               </li>
-              <li className="border-b border-gray-400 my-8 uppercase">
+              <li
+                className="border-b border-gray-400 my-8 uppercase"
+                onClick={() => setIsNavOpen(false)}
+              >
                 <a href="#contact">Contact</a>
               </li>
             </ul>
@@ -54,13 +63,13 @@ const MenuBar = function () {
 
         <ul className="DESKTOP-MENU hidden space-x-10 lg:flex mr-12 text-slate-200 text-xl">
           <li>
-            <a href="#about">Contact</a>
+            <a href="#about">About</a>
           </li>
           <li>
             <a href="#skills">Skills</a>
           </li>
           <li>
-            <a href="#contact">About</a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </nav>
