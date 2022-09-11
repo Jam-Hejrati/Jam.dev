@@ -22,8 +22,6 @@ function App() {
     openToWork: true,
   }
 
-
-
   return (
     <div className="bg-gray-800">
       <MenuBar />
