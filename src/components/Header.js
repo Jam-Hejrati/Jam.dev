@@ -15,7 +15,7 @@ const Header = function () {
         </h2>
         <p className="text-lg text-slate-400 mt-4 text-center px-16 lg:p-0 lg:text-left">
           I'm a passionate and hardwork front-end web developer who is trying to
-          make things easier for his self and who's around him.
+          make things easier for himself and who's around him.
         </p>
       </div>
     </div>
