@@ -3,30 +3,44 @@ import Header from "./components/Header";
 import MenuBar from "./components/MenuBar";
 import PersonalInfo from "./components/PersonalInfo";
 import "./App.css";
+import Skills from "./components/Skills";
+
+const SKILLS = [
+  "Html5",
+  "Css3",
+  "JavaScript",
+  "ES6",
+  "React.js",
+  "Tailwindcss",
+  "Bootstrap5",
+  "Sass",
+  "Git & Github"
+];
 
 function App() {
-  let [age , setAge] = useState()
-  
-  setAge = function() {
-    const now = new Date().getFullYear()
-    age = now - 2000
-    return age
-  }
+  let [age, setAge] = useState();
 
-  const info ={
-    firstName: 'Jam',
-    lastName:'Hejrati',
+  setAge = function () {
+    const now = new Date().getFullYear();
+    age = now - 2000;
+    return age;
+  };
+
+  const info = {
+    firstName: "Jam",
+    lastName: "Hejrati",
     age: setAge(),
-    address: 'Tehran, Karaj',
-    language: 'Persian, English',
+    address: "Tehran, Karaj",
+    language: "Persian, English",
     openToWork: true,
-  }
+  };
 
   return (
     <div className="bg-gray-800">
       <MenuBar />
       <Header />
-      <PersonalInfo info ={info} />
+      <PersonalInfo info={info} />
+      <Skills skillInfo={SKILLS} />
     </div>
   );
 }
