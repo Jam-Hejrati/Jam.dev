@@ -4,6 +4,7 @@ import MenuBar from "./components/MenuBar";
 import PersonalInfo from "./components/PersonalInfo";
 import "./App.css";
 import Skills from "./components/Skills";
+import Footer from "./components/Footer";
 
 const SKILLS = [
   "Html5",
@@ -41,6 +42,7 @@ function App() {
       <Header />
       <PersonalInfo info={info} />
       <Skills skillInfo={SKILLS} />
+      <Footer />
     </div>
   );
 }
