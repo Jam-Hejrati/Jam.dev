@@ -5,11 +5,11 @@ import { Codepen } from "react-feather";
 
 const Footer = () => {
   return (
-    <div id="contact" className="bg-gray-900 px-8 flex flex-col items-center pt-6">
-      <p className="EMAIL text-xl text-slate-200 pb-2 px-10 border-b border-gray-400 mb-4">
-        Email: Jamhejrati@gmail.com
+    <div id="contact" className="bg-gray-900 px-2 md:px-8 flex flex-col items-center pt-6">
+      <p className="EMAIL text-md md:text-xl text-slate-200 pb-2 px-3 md:px-10 border-b border-gray-400 mb-4">
+        Gmail: Jamhejratipro@gmail.com
       </p>
-      <div className="SOCIAL_LINKS mt-2 mb-6 space-x-4">
+      <div className="SOCIAL_LINKS mt-2 mb-6 space-x-2 md:space-x-4">
         <a
           className="bg-slate-700 hover:bg-slate-600 rounded-full inline-block p-4 text-black"
           href="https://github.com/Jam-Hejrati"
