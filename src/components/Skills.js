@@ -7,7 +7,7 @@ const Skills = function (props) {
 
       <div className="flex flex-wrap justify-center md:px-44 lg:px-80">
         {props.skillInfo.map((skill) => (
-          <span className="py-2 px-6 rounded m-1 bg-slate-500">{skill}</span>
+          <span className="py-2 px-6 rounded m-1 font-semibold text-lg bg-slate-500">{skill}</span>
         ))}
       </div>
     </div>

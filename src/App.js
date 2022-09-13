@@ -7,8 +7,7 @@ import Skills from "./components/Skills";
 import Footer from "./components/Footer";
 
 const SKILLS = [
-  "Html5",
-  "Css3",
+  "Html5 & Css3",
   "JavaScript",
   "ES6",
   "React.js",
@@ -37,7 +36,7 @@ function App() {
   };
 
   return (
-    <div className="bg-gray-800">
+    <div className="bg-[#222831]">
       <MenuBar />
       <Header />
       <PersonalInfo info={info} />

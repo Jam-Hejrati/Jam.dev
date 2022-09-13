@@ -6,7 +6,7 @@ const MenuBar = function () {
 
   return (
     <div className="flex items-center justify-between border-b border-gray-400 py-8">
-      <div className="ml-9 text-4xl text-slate-200 lg:text-amber-600">
+      <div className="ml-9 text-4xl text-slate-200 lg:text-[#F05454]">
         <h1>Jam.Dev</h1>
       </div>
       <nav>

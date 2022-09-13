@@ -1,7 +1,7 @@
 const InfoSection = function (props) {
   return (
     <div className="my-5">
-      <span className="text-xl text-amber-600">
+      <span className="text-xl text-[#F05454]">
         {props.title}:
         <span className="ml-2 text-slate-200 text-lg">
           {(props.info === true && (

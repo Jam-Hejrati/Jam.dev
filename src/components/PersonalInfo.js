@@ -7,12 +7,12 @@ const PersonalInfo = function (props) {
         Personal Info
       </span>
       <div className="flex flex-col items-center lg:flex-row lg:gap-44">
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center lg:items-start">
           <InfoSection title="First Name" info={props.info["firstName"]} />
           <InfoSection title="Last Name" info={props.info["lastName"]} />
           <InfoSection title="Age" info={props.info["age"]} />
         </div>
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center lg:items-start">
           <InfoSection title="Address" info={props.info["address"]} />
           <InfoSection title="Language" info={props.info["language"]} />
           <InfoSection title="Open To Work" info={props.info["openToWork"]} />

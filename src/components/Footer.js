@@ -5,7 +5,7 @@ import { Codepen } from "react-feather";
 
 const Footer = () => {
   return (
-    <div id="contact" className="bg-gray-900 px-2 md:px-8 flex flex-col items-center pt-6">
+    <div id="contact" className="bg-[#181c22] px-2 md:px-8 flex flex-col items-center pt-6">
       <p className="EMAIL text-md md:text-xl text-slate-200 pb-2 px-3 md:px-10 border-b border-gray-400 mb-4">
         Gmail: Jamhejratipro@gmail.com
       </p>
@@ -13,28 +13,24 @@ const Footer = () => {
         <a
           className="bg-slate-700 hover:bg-slate-600 rounded-full inline-block p-4 text-black"
           href="https://github.com/Jam-Hejrati"
-          target="_blank"
         >
           <GitHub />
         </a>
         <a
           className="bg-slate-700 hover:bg-slate-600 rounded-full inline-block p-4 text-cyan-500"
           href="https://twitter.com/HejratiJam"
-          target="_blank"
         >
           <Twitter />
         </a>
         <a
           className="bg-slate-700 hover:bg-slate-600 rounded-full inline-block p-4 text-pink-700"
           href="https://www.instagram.com/jam.dev/"
-          target="_blank"
         >
           <Instagram />
         </a>
         <a
           className="bg-slate-700 hover:bg-slate-600 rounded-full inline-block p-4 text-cyan-300"
           href="https://codepen.io/nikorutin"
-          target="_blank"
         >
           <Codepen />
         </a>
