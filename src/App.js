@@ -16,6 +16,7 @@ const SKILLS = [
   "Bootstrap5",
   "Sass",
   "Git & Github",
+  "Responsive Design"
 ];
 
 function App() {
