@@ -5,6 +5,7 @@ import PersonalInfo from "./components/PersonalInfo";
 import "./App.css";
 import Skills from "./components/Skills";
 import Footer from "./components/Footer";
+import { Zoom } from "react-reveal";
 
 const SKILLS = [
   "Html5 & Css3",
@@ -14,7 +15,7 @@ const SKILLS = [
   "Tailwindcss",
   "Bootstrap5",
   "Sass",
-  "Git & Github"
+  "Git & Github",
 ];
 
 function App() {
@@ -38,10 +39,12 @@ function App() {
   return (
     <div className="bg-[#222831]">
       <MenuBar />
-      <Header />
-      <PersonalInfo info={info} />
-      <Skills skillInfo={SKILLS} />
-      <Footer />
+      <Zoom>
+        <Header />
+        <PersonalInfo info={info} />
+        <Skills skillInfo={SKILLS} />
+        <Footer />
+      </Zoom>
     </div>
   );
 }
