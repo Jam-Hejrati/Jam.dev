@@ -1,7 +1,7 @@
 import { GitHub } from "react-feather";
 import { Twitter } from "react-feather";
 import { Instagram } from "react-feather";
-import { Codepen } from "react-feather";
+import { Linkedin } from "react-feather";
 
 const Footer = () => {
   return (
@@ -30,9 +30,9 @@ const Footer = () => {
         </a>
         <a
           className="bg-slate-700 hover:bg-slate-600 rounded-full inline-block p-4 text-cyan-300"
-          href="https://codepen.io/nikorutin"
+          href="https://www.linkedin.com/in/jam-hejrati/"
         >
-          <Codepen />
+          <Linkedin />
         </a>
       </div>
       <p className="COPY_RIGHT text-slate-200 p-4">
